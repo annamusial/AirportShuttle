@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+}
+body {
+    background-image: url(./Obrazki/tlo.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+#header {
+   height: 50px;
+   padding: 5px;
+   background-color: white;
+}
+
+img.logo {
+    height: 100%; 
+    width: 100%; 
+    object-fit: contain; 
+    object-position: 15%
+}
+
+img.toggl {
+    width: 25%;
+    position: absolute;
+    top: -52px;
+}
+
+#searchBox {
+    border-radius: 10px;
+    width: 600px;
+    padding: 10px;
+    height: 150px;
+    background-color: rgb(228, 228, 228);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+input.location {
+    border-radius: 5px;
+    padding-left: 30px;
+    margin-top: 30px;
+    height: 25px;
+    width: 245px;
+}
+
+input.destination {
+    border-radius: 5px;
+    padding-left: 30px;
+    margin-left: 10px;
+    height: 25px;
+    width: 260px;
+}
+
+input.pickup {
+    border-radius: 5px;
+    padding-left: 30px;
+    margin-top: 20px;
+    height: 25px;
+    width: 120px;
+    
+}
+
+input.time {
+    border-radius: 5px;
+    padding-left: 30px;
+    margin-top: 20px;
+    margin-left: 10px;
+    height: 25px;
+    width: 75px;
+}
+
+input.passanger {
+    border-radius: 5px;
+    padding-left: 30px;
+    height: 25px;
+    margin-left: 10px;
+}
+
+#pin1 {
+    position: absolute;
+    color: grey;
+    top: 48px;
+    padding-left: 2px;
+}
+
+#pin2 {
+    position: absolute;
+    color: grey;
+    top: 48px;
+    padding-left: 10px;
+}
+
+#cal {
+    color: grey;
+    position: absolute;
+    top: 100px;
+    margin-left: -586px;
+}
+
+#user, #clock {
+    color: gray;
+    position: absolute;
+    top: 100px;
+    margin-left: 15px;
+}
+
+
+.button {
+    background-color: #FFD700;
+    border: none;
+    color: white;
+    width: 100px;
+    height: auto;
+    border-radius: 25px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 250px;
+    position: absolute;
+}
+
+.motto {
+    font-family: Quicksand;
+    color: white;
+    font-size: 36px;
+    word-wrap: normal;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
